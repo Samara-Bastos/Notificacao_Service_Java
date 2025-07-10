@@ -4,15 +4,3 @@ server:
 spring:
   kafka:
     bootstrap-servers: localhost:9092
-
-  datasource:
-    url: jdbc:postgresql://localhost:5434/notificacoes
-    username: postgres
-    password: postgres
-    driver-class-name: org.postgresql.Driver
-
-  jpa:
-    hibernate:
-      ddl-auto: update
-      dialect: org.hibernate.dialect.PostgreSQLDialect # Adicionado o Dialect do PostgreSQL
-    show-sql: true
