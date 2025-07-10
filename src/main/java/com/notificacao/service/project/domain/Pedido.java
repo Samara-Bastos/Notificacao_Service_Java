@@ -1,5 +1,10 @@
 package com.notificacao.service.project.domain;
 
-public class Pedido {
+import lombok.Data;
 
+@Data
+public class Pedido {
+    private Long id;
+    private String cliente;
+    private Double valor;
 }
